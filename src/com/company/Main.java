@@ -30,7 +30,7 @@ public class Main {
 
 
         long startTime = System.nanoTime();
-        int result =  bruteForceStringMatching(example1, "Hello BW");
+        int result =  bruteForceStringMatching(example1, "Hello BW");//Search is at the beginning of the string
         long endTime = System.nanoTime();
 
         long duration = (endTime - startTime);
@@ -40,7 +40,7 @@ public class Main {
         System.out.println("index of the first match " + result);
 
         startTime = System.nanoTime();
-        int result2 =  bruteForceStringMatching(example2, "Per ultricies hac");
+        int result2 =  bruteForceStringMatching(example2, "Per ultricies hac");//Search is at the end of the string
         endTime = System.nanoTime();
 
         duration = (endTime - startTime);
@@ -60,7 +60,7 @@ public class Main {
         System.out.println("index of the first match " + result);
 
         startTime = System.nanoTime();
-        int result4 =  bruteForceStringMatching(example4, "he he propriety");
+        int result4 =  bruteForceStringMatching(example4, "he he propriety");//Search is at the middle of the string
         endTime = System.nanoTime();
 
         duration = (endTime - startTime);
