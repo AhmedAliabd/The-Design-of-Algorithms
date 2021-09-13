@@ -30,7 +30,7 @@ public class Main {
 
 
         long startTime = System.nanoTime();
-        int result =  bruteForceStringMatching(example1, "BW 2021");
+        int result =  bruteForceStringMatching(example1, "Hello BW");
         long endTime = System.nanoTime();
 
         long duration = (endTime - startTime);
